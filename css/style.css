@@ -1,0 +1,423 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+      width: 100%;
+  }
+  .container-1{
+      background: url(../images/banner.jpeg);
+      display: flex;
+      background-size: 100%;
+      padding: 35% 10% 3%;
+  }
+  .ab{
+      color:white;
+      font-size: 300%;
+      padding-top: 5%;
+  }
+  .note{
+    background-color: white;
+    margin-left: 10%;
+    padding: 5%;
+    font-size: 100%;
+  }
+  .container-2{
+      color: white;
+      background-color:rosybrown;
+      padding: 7%;
+  }
+  .container-2 h1{
+      font-style: italic;
+  }
+  .note-2{
+      padding-right: 15%;
+  }
+  .note-3{
+    padding-right: 50%;
+    padding-top: 2%; 
+  }
+  .container-3{
+      display: flex;
+  }
+  .image{
+    width: 33.3%;
+    height: 2%;
+}
+.container-4{
+    display: flex;
+}
+.container-5{
+    background-color:rosybrown;
+    color: white;  
+    text-align: center;
+    padding: 5% 15%;
+}
+.container-5 h1{
+    font-style: italic;
+    font-size: 400%;
+    padding-bottom: 3%;
+}
+.list{
+    display: flex;
+    margin-top: 7%;
+} 
+.name{
+    margin-left: 13%; 
+}
+.name input{
+    background-color: white;
+    width: 110%;
+    padding: 7% 0%;
+    border-radius: 50px;
+    border: 0px;
+    padding-left: 6%;
+    font-size: 100%;
+}
+.email{
+    margin-left: 4.3%; 
+}
+.email input{
+    background-color: white;
+    width: 120%;
+    padding: 7% 7%;
+    border-radius: 50px;
+    font-size: 100%;
+    border: 0px;
+}
+.get{
+    margin-left: 8.1%;
+}
+.get input{
+    background-color: black;
+    width: 180%;
+    padding: 13% 0;
+    border-radius: 50px;
+    border: 0px;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+.container-6{
+    display: flex;
+    margin: 4% 0;
+    margin-left: 10%;
+}
+.image2{
+    width: 500%;
+    height: 100%;
+    
+}
+.write-up{
+    margin-top: 6%;
+    padding-right: 15%;
+    padding-left: 28%;
+    font-size: 110%;
+}
+.write-up h3{
+    margin-top: 3%;
+    color:palevioletred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    font-weight: 400;
+}
+.container-7{
+    padding: 5% 3% 2% 8%;
+    background-color: rosybrown;
+}
+.container-7 h1{
+    font-size: 400%;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+}
+.slide{
+    display: flex;
+}
+.image3{
+    width: 23.7%;
+    height: 10%; 
+    padding-left: 1%; 
+}
+.image4{
+    width: 21%;
+    height: 40%;  
+    padding: 0 1%;
+}
+.image5{
+    width: 21%;
+    height: 40%;  
+}
+.arrow{
+    font-size: 400%;
+    color: white;
+    margin-left: 45%;
+    
+}
+.container-8{
+    display: flex;
+    margin: 5% 10%;
+}
+.shoe{
+    display: flex;  
+}
+.pair{
+    width: 50%;
+    height: 90%; 
+    padding-left: 2%; 
+}
+.product{
+    padding: 7% 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product h2{
+    padding-bottom: 3%;
+    font-size: 300%;
+    font-weight: 450;
+}
+.product h1{
+    font-weight: bolder;
+    padding-bottom: 3%;
+    font-size: 200%;
+}
+.product p{
+    padding-bottom: 7%;
+    padding-right: 25%;
+}
+.product input{
+    background-color: black;
+    width: 55%;
+    padding: 4% ;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 110%;
+    border: 0px;
+
+}
+.container-9{
+    display: flex;
+}
+.sub{
+    width: 50%;
+    height: 8%;
+}
+.writing{
+    padding: 15% 5%;
+    text-align: center;
+}
+.writing hr{
+    padding: 0.7%;
+    background-color: rosybrown;
+    margin: 6% 0;
+}
+.writing h1{
+    font-size: 600%;   
+    font-style: italic;
+    margin-bottom: 13%;
+}
+.box{
+    display: flex;
+}
+.box input {
+    margin: 1%;
+    padding: 2%;
+    width: 60%;
+    margin-bottom: 10%;
+    font-size: 100%;
+}
+.submit input{
+    background-color: black;
+    width: 28%;
+    padding: 2%;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 130%;
+    border: 0px;
+}
+.writing p{
+    margin: 5% 13%;
+    font-size: 120%;
+}
+.social{
+    margin-top: 7%;
+}
+.tw{
+  margin: 0% 4%;  
+}
+
+@media (max-width: 768px){
+    .container-1{
+        flex-direction: column;
+        padding-top: 24%;
+        text-align: center;
+        padding-bottom: 6%;
+
+    }
+    .ab{
+        padding-bottom: 3%;
+    }
+    .note{
+        margin-left: 3%;
+    }
+    .container-2{
+        padding-left: 10%;
+    }
+    .note-2{
+        padding-right: 6%;
+    }
+    .note-3{
+      padding-right: 10%;
+      padding-top: 3%; 
+    }
+    .list{
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+    .name{
+        margin-left: 2%;
+    }
+    .name input{
+        width: 90%;
+        padding: 4% 0%;
+        border-radius: 50px;
+        padding-left: 6%;
+        font-size: 100%;
+    }
+    .email{
+        margin: 5% 0%;
+    }
+    .email input{
+        width: 90%;
+        padding: 4% 4%;
+        border-radius: 50px;
+        font-size: 100%;
+    }
+    .get{
+        margin-left: 1%;
+    }
+    .get input{
+        width: 100%;
+        padding: 4% 0;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 100%;
+    }
+    .container-6{
+        flex-direction: column;
+        
+    }
+    .image2{
+        width: 80%;
+        height: 10%;
+        margin: 5% 
+    }
+    .write-up{
+        margin-top: 2%;
+        padding-right: 9%;
+        padding-left: 2%;
+        font-size: 110%;
+    }
+    .write-up h3{
+        margin: 5% 0%;
+        font-size: 170%;
+    }
+    .arrow{
+        font-size: 250%;
+    margin-left: 40%;
+    }
+    .container-8{
+        margin-top: 4%;
+        flex-direction: column;
+    }
+    .pair{
+        width: 50%;
+        height: 10%; 
+        padding-left: 2%;  
+    }
+    .product{
+        padding-left: 3%;
+        padding-top: 4%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .product h2{
+        padding-bottom: 2%;
+        font-size: 140%;
+        font-weight: 450;
+    }
+    .product h1{
+        font-weight: bolder;
+        padding-bottom: 2%;
+        font-size: 100%;
+    }
+    .product p{
+        padding-bottom: 4%;
+        padding-right: 3%;
+        font-size: 80%;
+    }
+    .product input{
+        width: 45%;
+        padding: 4% ;
+        font-size: 80%;
+    }
+    .container-9{
+        flex-direction:column;
+    }
+    .sub{
+        width: 80%;
+        height: 3%;
+        margin-left: 10%;
+    }
+    .writing{
+        padding: 10% 5%;
+    }
+    .writing hr{
+        margin: 4% 0;
+    }
+    .writing h1{
+        font-size: 400%;   
+        margin-bottom: 4%;
+    }
+    .box input {
+        margin-bottom: 6%;
+        font-size: 70%;
+    }
+    .submit input{
+        font-size: 100%;
+    }
+    .writing p{
+        font-size: 100%;
+    }
+    .social{
+        margin-top: 4%;
+    }
+    .tw{
+        width: 7%;
+        height: 4%;
+    }
+    .fa{
+        width: 7%;
+        height: 4%;
+    }
+
+}
+@media (max-width: 375px){
+    .container-1{
+        background-size: 110%;
+    }
+}
+@media (max-width: 320px){
+    .container-1{
+        background-size: 128%;
+    }
+    .write-up h3{
+        font-size: 180%;
+    }
+}
